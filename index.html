@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite + Tailwind</title>
+  </head>
+  <body class="bg text-white font-sans">
+    <!-- Header -->
+    <header class="w-full border-b border-white/10 bg-dark relative">
+      <div
+        class="max-w-container mx-auto px-4 py-3 flex items-center justify-between"
+      >
+        <!-- Logo -->
+
+        <a href="#" class="flex items-center space-x-2">
+          <img
+            src="./src/assets/logo.svg"
+            alt="EmailGigga logo"
+            class="h-8 w-auto"
+          />
+        </a>
+
+        <!-- Desktop Nav -->
+        <div class="flex items-center gap-7">
+          <nav class="hidden md-lg:flex text-base text-white">
+            <ul class="flex space-x-14">
+              <li>
+                <a href="#" class="hover:text-green-400 transition">Features</a>
+              </li>
+              <li>
+                <a href="#" class="hover:text-green-400 transition">Pricing</a>
+              </li>
+              <li>
+                <a href="#" class="hover:text-green-400 transition">Blog</a>
+              </li>
+              <li>
+                <a href="#" class="hover:text-green-400 transition">About us</a>
+              </li>
+              <li>
+                <a href="#" class="hover:text-green-400 transition">Contact</a>
+              </li>
+            </ul>
+          </nav>
+          <!-- CTA and Menu -->
+
+          <a
+            href="#"
+            class="hidden md-lg:block border border-white rounded-full px-7 py-3 hover:bg-white hover:text-black transition text-base"
+            >Log in</a
+          >
+          <!-- Mobile Menu Button -->
+          <button
+            id="menu-btn"
+            class="md-lg:hidden focus:outline-none z-50 relative"
+          >
+            <svg
+              id="menu-icon"
+              xmlns="http://www.w3.org/2000/svg"
+              class="h-6 w-6 text-white"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M4 6h16M4 12h16M4 18h16"
+              />
+            </svg>
+            <svg
+              id="close-icon"
+              xmlns="http://www.w3.org/2000/svg"
+              class="h-6 w-6 text-white hidden"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M6 18L18 6M6 6l12 12"
+              />
+            </svg>
+          </button>
+        </div>
+      </div>
+
+      <!-- Mobile Menu -->
+      <!-- Mobile Menu -->
+      <!-- Mobile Menu -->
+      <div
+        id="overlay"
+        class="md-lg:hidden fixed inset-0 bg-black/50 z-40 hidden"
+      ></div>
+
+      <nav
+        id="mobile-menu"
+        class="md-lg:hidden fixed top-0 right-0 h-full w-64 bg-dark transform translate-x-full transition-transform duration-300 ease-in-out z-50"
+      >
+        <!-- Close Button -->
+        <button
+          id="menu-close"
+          class="absolute top-4 right-4 text-white text-3xl hover:text-green-400 z-50"
+        >
+          &times;
+        </button>
+
+        <!-- Menu Content -->
+        <ul
+          class="flex flex-col justify-center items-center h-full gap-6 text-lg text-white text-center px-6"
+        >
+          <li>
+            <a href="#" class="hover:text-green-400 transition">Features</a>
+          </li>
+          <li>
+            <a href="#" class="hover:text-green-400 transition">Pricing</a>
+          </li>
+          <li><a href="#" class="hover:text-green-400 transition">Blog</a></li>
+          <li>
+            <a href="#" class="hover:text-green-400 transition">About us</a>
+          </li>
+          <li>
+            <a href="#" class="hover:text-green-400 transition">Contact</a>
+          </li>
+          <li>
+            <a
+              href="#"
+              class="border border-white rounded-full px-6 py-2 text-white hover:bg-white hover:text-black transition mt-4"
+            >
+              Log in
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="py-28 bg-dark text-white">
+      <div class="max-w-6xl mx-auto px-4 text-center">
+        <!-- Badges -->
+        <div class="flex flex-wrap justify-center gap-4 mb-5">
+          <span
+            class="bg-green-800 text-[13px] px-4 py-1 rounded-full flex items-center gap-2"
+          >
+            ⭐⭐⭐⭐⭐ Review from 7,000 customer
+          </span>
+          <span
+            class="bg-green-800 text-text-bage px-4 py-1 rounded-full flex items-center gap-2"
+          >
+            🎉 We reach 12,000 active user
+          </span>
+        </div>
+
+        <!-- Headline -->
+        <h1 class="text-4xl md:text-text-heading font-bold mb-4 leading-tight">
+          Power Your Email Marketing<br />
+          Campaigns with <span class="text-green-400">Ease and Efficiency</span>
+        </h1>
+
+        <!-- Subheadline -->
+        <p class="text-gray-300 text-lg mb-20 max-w-3xl mx-auto">
+          Are you ready to supercharge your email marketing efforts and unlock
+          the true potential of your campaigns? Look no further than EmailGigga,
+          the all-in-one solution for businesses of all sizes seeking to engage
+          their audience, boost conversions, and build lasting customer
+          relationships.
+        </p>
+
+        <!-- CTA Buttons -->
+        <div class="flex flex-col sm:flex-row justify-center gap-4 mb-16">
+          <a
+            href="#"
+            class="bg-green-500 text-white px-8 py-3 rounded-full font-medium hover:bg-green-600 transition text-center text-lg"
+            >Get started</a
+          >
+          <a
+            href="#"
+            class="border border-white px-10 py-3 rounded-full flex items-center justify-center gap-2 hover:bg-white hover:text-black transition text-lg"
+          >
+            ▶ Watch Video
+          </a>
+        </div>
+
+        <!-- Dashboard image -->
+        <div class="flex justify-center items-center mb-32">
+          <img
+            src="./src/assets/dashboard.png"
+            alt="Email Analytics Dashboard"
+            class="w-full max-w-[910px]"
+          />
+        </div>
+
+        <!-- Brands -->
+        <div>
+          <h5 class="text-gray text-center text-lg uppercase mb-8">
+            BRANDS THAT TRUSTED US
+          </h5>
+          <ul class="flex flex-wrap justify-center items-center gap-20">
+            <li>
+              <img
+                src="./src/assets/amazon.svg"
+                alt="Amazon"
+                class="h-6 sm:h-8"
+              />
+            </li>
+            <li>
+              <img
+                src="./src/assets/facebook.svg"
+                alt="Facebook"
+                class="h-4 sm:h-5"
+              />
+            </li>
+            <li>
+              <img
+                src="./src/assets/google.svg"
+                alt="Google"
+                class="h-6 sm:h-8"
+              />
+            </li>
+            <li>
+              <img
+                src="./src/assets/netflix.svg"
+                alt="Netflix"
+                class="h-6 sm:h-8"
+              />
+            </li>
+            <li>
+              <img
+                src="./src/assets/spotify.svg"
+                alt="Spotify"
+                class="h-6 sm:h-8"
+              />
+            </li>
+            <li>
+              <img
+                src="./src/assets/lastfm.svg"
+                alt="Last.fm"
+                class="h-6 sm:h-8"
+              />
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <!-- Script to toggle mobile menu -->
+    <script src="./script.js"></script>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
