@@ -88,17 +88,14 @@
           </button>
         </div>
       </div>
-
-      <!-- Mobile Menu -->
-      <!-- Mobile Menu -->
       <!-- Mobile Menu -->
       <div
         id="overlay"
         class="md-lg:hidden fixed inset-0 bg-black/50 z-40 hidden"
       ></div>
-
       <nav
         id="mobile-menu"
+        role="dialog"
         class="md-lg:hidden fixed top-0 right-0 h-full w-64 bg-dark transform translate-x-full transition-transform duration-300 ease-in-out z-50"
       >
         <!-- Close Button -->
@@ -137,7 +134,6 @@
         </ul>
       </nav>
     </header>
-
     <!-- Hero Section -->
     <section class="py-28 bg-dark text-white">
       <div class="max-w-6xl mx-auto px-4 text-center">
@@ -196,7 +192,7 @@
 
         <!-- Brands -->
         <div>
-          <h5 class="text-gray text-center text-lg uppercase mb-8">
+          <h5 class="text-neutralGray text-center text-lg uppercase mb-8">
             BRANDS THAT TRUSTED US
           </h5>
           <ul class="flex flex-wrap justify-center items-center gap-20">
@@ -246,7 +242,104 @@
         </div>
       </div>
     </section>
-    <!-- Script to toggle mobile menu -->
+    <!-- Benefits Section -->
+    <section class="bg-white text-[#0C0C0C] py-52">
+      <div class="max-w-container mx-auto px-4 text-center">
+        <!-- Tagline -->
+        <p class="text-green-600 text-xs font-semibold uppercase mb-9">
+          Get started in minutes
+        </p>
+
+        <!-- Title -->
+        <h2 class="text-gray-800text-4xl md:text-5xl font-bold mb-28">
+          Revolutionize Your Email Marketing Campaigns <br />
+          with Global Benefits
+        </h2>
+        <!-- Benefit Cards Grid -->
+        <div class="grid grid-cols-1 md:grid-cols-6 gap-6">
+          <!-- Card 1 -->
+          <div
+            class="bg-gray-200 rounded-xl p-10 py-12 text-left hover:shadow-2xl hover:-translate-y-1 transition-all duration-300 md:col-span-2"
+          >
+            <h3 class="text-gray-800 font-bold text-2xl mb-2">
+              Global benefits
+            </h3>
+            <p class="text-gray-600 text-lg mb-8">
+              One place to start, manage and scale your benefits globally
+            </p>
+            <img
+              src="./src/assets/global-benefits.svg"
+              alt="Global benefits"
+              class="mx-auto"
+            />
+          </div>
+
+          <!-- Card 2 -->
+          <div
+            class="bg-gray-200 rounded-xl p-10 py-12 text-left hover:shadow-2xl hover:-translate-y-1 transition-all duration-300 md:col-span-2"
+          >
+            <h3 class="text-gray-800 font-bold text-2xl mb-2">Automated</h3>
+            <p class="text-lg text-gray-600 mb-8">
+              Sync your HR tools and watch your benefits work on autopilot
+            </p>
+            <img
+              src="./src/assets/automated-icons.png"
+              alt="HR tools icons"
+              class="mx-auto"
+            />
+          </div>
+
+          <!-- Card 3 -->
+          <div
+            class="bg-gray-200 rounded-xl p-10 py-12 text-left hover:shadow-2xl hover:-translate-y-1 transition-all duration-300 md:col-span-2"
+          >
+            <h3 class="text-gray-800 font-bold text-2xl mb-2">Efficiency</h3>
+            <p class="text-gray-600 text-lg mb-8">
+              Meet your auto-enrol pension requirements in the UK and Ireland
+            </p>
+            <img
+              src="./src/assets/efficiency-chart.png"
+              alt="Efficiency chart"
+              class="w-64 mx-auto"
+            />
+          </div>
+
+          <!-- Card 4 -->
+          <div
+            class="bg-gray-200 rounded-xl p-10 text-left hover:shadow-2xl hover:-translate-y-1 transition-all duration-300 md:col-span-3"
+          >
+            <h3 class="text-gray-800 font-bold text-2xl mb-2">Affordability</h3>
+            <p class="text-gray-600 text-lg mb-16">
+              Control spend, remove reporting admin, and say goodbye to broker
+              fees
+            </p>
+            <img
+              src="./src/assets/affordability-chart.png"
+              alt="Price graph"
+              class="mx-auto"
+            />
+          </div>
+
+          <!-- Card 5 -->
+          <div
+            class="bg-gray-200 rounded-xl p-10 text-left hover:shadow-2xl hover:-translate-y-1 transition-all duration-300 md:col-span-3"
+          >
+            <h3 class="text-gray-800 font-bold text-2xl mb-2">
+              All-in-one Place
+            </h3>
+            <p class="text-gray-600 text-lg mb-14">
+              Manage policies from multiple providers in one single platform
+            </p>
+            <img
+              src="./src/assets/platform-icons.png"
+              alt="Providers"
+              class="w-full max-w-lg mx-auto"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
     <script src="./script.js"></script>
     <script type="module" src="/src/main.js"></script>
   </body>

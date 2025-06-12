@@ -1,10 +1,10 @@
 module.exports = {
-  content: ['./index.html', './src/**/*.{js,ts,jsx,tsx}'],
+  content: ['./index.html', './src/**/*.{js,ts,jsx,tsx,html}'],
   theme: {
     extend: {
       colors: {
         dark: '#0C0C0C',
-        gray: '#909090'
+        neutralGray: '#909090'
       },
       fontSize: {
         'text-bage': '0.8125rem',
