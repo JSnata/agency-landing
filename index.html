@@ -4,6 +4,10 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+/>
     <title>Vite + Tailwind</title>
   </head>
   <body class="bg text-white font-sans">
@@ -801,7 +805,7 @@
         </div>
       </div>
     </section>
-    <section class="py-56 bg-white text-[#0C0C0C]">
+    <section class="pt-56 pb-28 bg-white text-[#0C0C0C]">
       <div class="max-w-content-container mx-auto px-4">
         <!-- Section Header -->
         <p class="text-green-600 text-xs font-semibold uppercase mb-4">Insight & Inspiration</p>
@@ -843,10 +847,86 @@
               Automation Unleashed: Streamlining Your Email Marketing with Workflows
             </h3>
           </article>
-          
         </div>
       </div>
-    </section>    
+    </section>  
+    <section class="bg-white text-[#0C0C0C] py-24">
+      <div class="max-w-6xl mx-auto px-4 text-center">
+        <span class="text-green-600 text-xs font-semibold uppercase mb-4 inline-block">Testimonial</span>
+        <h2 class="text-4xl md:text-5xl font-semibold mb-1 md:leading-normal">
+          See what people are saying<br />about EmailGigga
+        </h2>
+        <p class="text-gray-600 max-w-2xl mx-auto mb-16 text-sm md:text-base">
+          At EmailGigga, we take immense pride in providing a cutting-edge email marketing solution that empowers businesses to achieve unparalleled success. But don't just take our word for it - listen to what our valued users have to say about their experience with EmailGigga!        </p>
+    
+        <!-- Swiper -->
+        <div class="swiper mySwiper pb-20">
+          <div class="swiper-wrapper ">
+            <!-- Slide 1 -->
+            <div class="swiper-slide">
+              <div class="bg-gray-100 p-6 rounded-xl text-left h-full">
+                <p class="mb-6">I must say it has transformed the way we approach email marketing. The personalization features have allowed us to create tailored campaigns that resonate.</p>
+                <div class="flex items-center gap-3">
+                  <img src="./src/assets/avatar1.png" alt="Sarah" class="w-10 h-10 rounded-full" />
+                  <div>
+                    <p class="font-semibold text-sm">Sarah Thompson</p>
+                    <p class="text-xs text-green-600">Marketing Manager</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+    
+            <!-- Slide 2 -->
+            <div class="swiper-slide">
+              <div class="bg-gray-100 p-6 rounded-xl text-left h-full">
+                <p class="mb-6">We tried various email marketing platforms before coming across [Your Email Marketing Software Name], and none of them could match the level of personalization and ease of use that this software offers.</p>
+                <div class="flex items-center gap-3">
+                  <img src="./src/assets/avatar2.png" alt="John" class="w-10 h-10 rounded-full" />
+                  <div>
+                    <p class="font-semibold text-sm">John Roberts</p>
+                    <p class="text-xs text-green-600">E-commerce Owner</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+    
+            <!-- Slide 3 -->
+            <div class="swiper-slide">
+              <div class="bg-gray-100 p-6 rounded-xl text-left h-full">
+                <p class="mb-6"> As a non-profit organization, our resources are limited, but our need to communicate effectively with donors and volunteers is crucial. [Your Email Marketing Software Name] has been a game-changer for us.</p>
+                <div class="flex items-center gap-3">
+                  <img src="./src/assets/avatar3.png" alt="Emily" class="w-10 h-10 rounded-full" />
+                  <div>
+                    <p class="font-semibold text-sm">Emily Parker</p>
+                    <p class="text-xs text-green-600">Non-profit Coordinator</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+    
+            <!-- Slide 4 -->
+            <div class="swiper-slide">
+              <div class="bg-gray-100 p-6 rounded-xl text-left h-full">
+                <p class="mb-6">I have been using for over a year now, and I must say it has transformed the way we approach email marketing. The personalization features have allowed us to create tailored campaigns that resonate.</p>
+                <div class="flex items-center gap-3">
+                  <img src="./src/assets/avatar2.png" alt="Liam" class="w-10 h-10 rounded-full" />
+                  <div>
+                    <p class="font-semibold text-sm">Liam Walker</p>
+                    <p class="text-xs text-green-600">Product Manager</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+    
+          <div class="swiper-pagination !relative mt-10"></div>
+        </div>
+      </div>
+    </section>
+    
+      <!-- Swiper JS -->
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
     <script src="./script.js"></script>
     <script type="module" src="/src/main.js"></script>
   </body>
