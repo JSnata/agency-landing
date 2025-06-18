@@ -22,27 +22,46 @@ document.addEventListener("DOMContentLoaded", function () {
     menu.querySelectorAll("a").forEach(link => {
       link.addEventListener("click", closeMenu);
     });
-  });
-
-
-  const swiper = new Swiper(".mySwiper", {
-    loop: true,
-    autoplay: {
-      delay: 4000,
-      disableOnInteraction: false,
-    },
-    pagination: {
-      el: ".swiper-pagination",
-      clickable: true,
-    },
-    slidesPerView: 1,
-    spaceBetween: 24,
-    breakpoints: {
-      768: {
-        slidesPerView: 2,
+  
+    const swiper = new Swiper(".mySwiper", {
+      loop: true,
+      autoplay: {
+        delay: 4000,
+        disableOnInteraction: false,
       },
-      1024: {
-        slidesPerView: 3,
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
       },
-    },
+      slidesPerView: 1,
+      spaceBetween: 24,
+      breakpoints: {
+        768: {
+          slidesPerView: 2,
+        },
+        1024: {
+          slidesPerView: 3,
+        },
+      },
+      on: {
+        init: () => setEqualSlideHeights(),
+        resize: () => setEqualSlideHeights(),
+      }
+    });
+  
+    function setEqualSlideHeights() {
+      const slides = document.querySelectorAll(".swiper-slide");
+      let maxHeight = 0;
+  
+      slides.forEach(slide => {
+        slide.style.height = "auto";
+        const height = slide.offsetHeight;
+        if (height > maxHeight) maxHeight = height;
+      });
+  
+      slides.forEach(slide => {
+        slide.style.height = maxHeight + "px";
+      });
+    }
   });
+  
