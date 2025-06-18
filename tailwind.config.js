@@ -4,7 +4,10 @@ module.exports = {
     extend: {
       colors: {
         dark: '#0C0C0C',
-        neutralGray: '#909090'
+        neutralGray: '#909090',
+        lightGreen: '#96EF76',
+        primaryGreen: '#2F872D',
+        neutralGreen: '#3FA11B'
       },
       fontSize: {
         'text-bage': '0.8125rem',
