@@ -27,16 +27,12 @@ document.addEventListener("DOMContentLoaded", function () {
 
   function setEqualSlideHeights() {
     const slides = document.querySelectorAll(".mySwiper .swiper-slide");
-
-    // Сброс высоты
     slides.forEach(slide => {
       slide.style.height = 'auto';
     });
 
-    // Найти максимальную
     const maxHeight = Math.max(...[...slides].map(s => s.offsetHeight));
 
-    // Применить
     slides.forEach(slide => {
       slide.style.height = `${maxHeight}px`;
     });
