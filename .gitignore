@@ -1,0 +1,17 @@
+# Node.js
+node_modules/
+dist/
+.env
+
+# macOS system files
+.DS_Store
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Optional
+.vscode/
+.idea/
+*.log

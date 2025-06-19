@@ -1,0 +1,911 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+/>
+  <title>EmailGigga</title>
+    <script type="module" crossorigin src="/agency-landing/assets/index-BI_Q10Jz.js"></script>
+    <link rel="stylesheet" crossorigin href="/agency-landing/assets/index-BLrHaOFv.css">
+  </head>
+  <body class="bg text-white font-sans">
+    <!-- Header -->
+    <header class="w-full border-b border-white/10 bg-dark relative">
+      <div
+        class="max-w-container mx-auto px-4 py-3 flex items-center justify-between"
+      >
+        <!-- Logo -->
+        <a href="#" class="flex items-center space-x-2">
+          <img
+            src="/agency-landing/assets/logo-yQgdjv6w.svg"
+            alt="EmailGigga logo"
+            class="h-8 w-auto"
+          />
+        </a>
+        <!-- Desktop Nav -->
+        <div class="flex items-center gap-7">
+          <nav class="hidden md-lg:flex text-base text-white">
+            <ul class="flex space-x-14">
+              <li>
+                <a href="#" class="hover:text-lightGreen transition">Features</a>
+              </li>
+              <li>
+                <a href="#" class="hover:text-lightGreen transition">Pricing</a>
+              </li>
+              <li>
+                <a href="#" class="hover:text-lightGreen transition">Blog</a>
+              </li>
+              <li>
+                <a href="#" class="hover:text-lightGreen transition">About us</a>
+              </li>
+              <li>
+                <a href="#" class="hover:text-lightGreen transition">Contact</a>
+              </li>
+            </ul>
+          </nav>
+          <!-- CTA and Menu -->
+
+          <a
+            href="#"
+            class="hidden md-lg:block border border-white rounded-full px-7 py-3 hover:bg-white hover:text-black transition text-base"
+            >Log in</a
+          >
+          <!-- Mobile Menu Button -->
+          <button
+            id="menu-btn"
+            class="md-lg:hidden focus:outline-none z-50 relative"
+          >
+            <svg
+              id="menu-icon"
+              xmlns="http://www.w3.org/2000/svg"
+              class="h-6 w-6 text-white"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M4 6h16M4 12h16M4 18h16"
+              />
+            </svg>
+            <svg
+              id="close-icon"
+              xmlns="http://www.w3.org/2000/svg"
+              class="h-6 w-6 text-white hidden"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M6 18L18 6M6 6l12 12"
+              />
+            </svg>
+          </button>
+        </div>
+      </div>
+      <!-- Mobile Menu -->
+      <div
+        id="overlay"
+        class="md-lg:hidden fixed inset-0 bg-black/50 z-40 hidden"
+      ></div>
+      <nav
+        id="mobile-menu"
+        role="dialog"
+        class="md-lg:hidden fixed top-0 right-0 h-full w-64 bg-dark transform translate-x-full transition-transform duration-300 ease-in-out z-50"
+      >
+        <!-- Close Button -->
+        <button
+          id="menu-close"
+          class="absolute top-4 right-4 text-white text-3xl hover:text-green-400 z-50"
+        >
+          &times;
+        </button>
+
+        <!-- Menu Content -->
+        <ul
+          class="flex flex-col justify-center items-center h-full gap-6 text-lg text-white text-center px-6"
+        >
+          <li>
+            <a href="#" class="hover:text-lightGreen transition">Features</a>
+          </li>
+          <li>
+            <a href="#" class="hover:text-lightGreen transition">Pricing</a>
+          </li>
+          <li><a href="#" class="hover:text-lightGreen transition">Blog</a></li>
+          <li>
+            <a href="#" class="hover:text-lightGreen transition">About us</a>
+          </li>
+          <li>
+            <a href="#" class="hover:text-lightGreen transition">Contact</a>
+          </li>
+          <li>
+            <a
+              href="#"
+              class="border border-white rounded-full px-6 py-2 text-white hover:bg-white hover:text-black transition mt-4"
+            >
+              Log in
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <!-- Hero Section -->
+    <section class="py-12 px-4 md:py-28 mb-28 md:mb-52 bg-dark text-white">
+      <div class="max-w-6xl mx-auto px-4 text-center">
+        <!-- Badges -->
+        <div class="flex flex-wrap justify-center gap-2 md:gap-4 mb-5">
+          <span
+            class="bg-green-800 text-xs md:text-[13px] px-4 py-1 rounded-full flex items-center gap-2"
+          >
+            ⭐⭐⭐⭐⭐ Review from 7,000 customer
+          </span>
+          <span
+            class="bg-green-800 text-text-bage px-4 py-1 rounded-full flex items-center gap-2"
+          >
+            🎉 We reach 12,000 active user
+          </span>
+        </div>
+
+        <!-- Headline -->
+        <h1 class="text-4xl md:text-text-heading font-bold mb-4 leading-tight">
+          Power Your Email Marketing<br />
+          Campaigns with <span class="text-lightGreen">Ease</span> and <span class="text-lightGreen">Efficiency</span>
+        </h1>
+
+        <!-- Subheadline -->
+        <p class="text-gray-300 md:text-lg mb-12 md:mb-20 max-w-3xl mx-auto">
+          Are you ready to supercharge your email marketing efforts and unlock
+          the true potential of your campaigns? Look no further than EmailGigga,
+          the all-in-one solution for businesses of all sizes seeking to engage
+          their audience, boost conversions, and build lasting customer
+          relationships.
+        </p>
+
+        <!-- CTA Buttons -->
+        <div class="flex flex-col sm:flex-row justify-center gap-4 mb-16">
+          <a
+            href="#"
+            class="bg-primaryGreen text-white px-8 py-3 rounded-full font-medium hover:bg-green-700 transition text-center text-sm md:text-lg"
+            >Get started</a
+          >
+          <a
+            href="#"
+            class="border border-white px-10 py-3 rounded-full flex items-center justify-center gap-2 hover:bg-white hover:text-black transition text-sm md:text-lg"
+          >
+            ▶ Watch Video
+          </a>
+        </div>
+
+        <!-- Dashboard image -->
+        <div class="flex justify-center items-center mb-20 md:mb-32">
+          <img
+            src="/agency-landing/assets/dashboard-CkwWmMpF.png"
+            alt="Email Analytics Dashboard"
+            class="w-full max-w-[910px]"
+          />
+        </div>
+
+        <!-- Brands -->
+        <div>
+          <h5 class="text-neutralGray text-center text-lg uppercase mb-8">
+            BRANDS THAT TRUSTED US
+          </h5>
+          <ul class="flex flex-wrap justify-center items-center gap-10
+          md:gap-20">
+            <li>
+              <img
+                src="/agency-landing/assets/amazon-Bf94-TOq.svg"
+                alt="Amazon"
+                class="h-6 sm:h-8"
+              />
+            </li>
+            <li>
+              <img
+                src="data:image/svg+xml,%3csvg%20width='287'%20height='56'%20viewBox='0%200%20287%2056'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M19.0038%2054.7378H8.2253V27.8685H0.882812V19.1204H8.22501V12.8954C8.22501%205.51892%2011.4725%200.228516%2022.2218%200.228516C24.4953%200.228516%2028.0645%200.68676%2028.0645%200.68676V8.80986H24.3156C20.4958%208.80986%2019.0043%209.97178%2019.0043%2013.1841V19.1204H27.9215L27.1274%2027.8685H19.004L19.0038%2054.7378ZM43.7352%2018.4213C43.5782%2018.4213%2043.4165%2018.427%2043.2567%2018.431C33.2622%2018.431%2028.6895%2025.9488%2028.6895%2036.6206C28.6895%2050.0641%2034.621%2055.4446%2043.3347%2055.4446C48.3202%2055.4446%2051.5957%2053.3462%2053.5866%2049.4303V54.7415H63.8384V19.1241H53.5866V24.6015C51.961%2021.0775%2048.594%2018.463%2043.7352%2018.4213ZM46.3419%2026.8376C50.5396%2026.8376%2053.0591%2029.7655%2053.0591%2034.7458L53.0689%2039.8326C53.0689%2043.1893%2050.9879%2047.1164%2046.3419%2047.1164C39.1994%2047.1164%2039.3902%2039.4041%2039.3902%2036.8354C39.3902%2028.1948%2043.1957%2026.8376%2046.3419%2026.8376ZM67.9787%2036.9347C67.9787%2032.6065%2067.7716%2018.4444%2086.2226%2018.4444C93.6292%2018.4444%2096.7219%2020.7994%2096.7219%2020.7994L94.2362%2028.5092C94.2362%2028.5092%2091.1474%2026.8084%2087.1228%2026.8084C81.968%2026.8084%2078.6787%2029.7967%2078.6787%2035.0545L78.6845%2038.8246C78.6845%2043.8767%2081.8581%2047.2492%2087.1334%2047.2492C90.7999%2047.2492%2094.1792%2045.5323%2094.1792%2045.5323L96.6587%2053.081C96.6587%2053.081%2093.8308%2055.4509%2086.2744%2055.4509C68.7061%2055.4509%2067.979%2042.7448%2067.979%2036.9347H67.9787ZM156.832%2018.431C166.827%2018.431%20171.472%2025.9488%20171.472%2036.6206C171.472%2050.0641%20165.54%2055.4446%20156.826%2055.4446C151.841%2055.4446%20148.155%2053.3465%20146.164%2049.4303V54.7415L136.042%2054.7375V1.31148L146.789%200.374113V24.119C148.341%2019.9648%20153.438%2018.431%20156.832%2018.431ZM153.819%2026.8376C149.621%2026.8376%20146.789%2029.7655%20146.789%2034.7458L146.779%2039.8326C146.773%2043.1893%20148.741%2047.1164%20153.819%2047.1164C160.962%2047.1164%20160.771%2039.4041%20160.771%2036.8354C160.771%2028.1948%20156.966%2026.8376%20153.819%2026.8376ZM115.37%2018.4604C104.034%2018.4604%2098.0497%2024.641%2098.0497%2035.6246V37.6652C98.0497%2051.9208%20106.454%2055.5911%20116.474%2055.5911C126.213%2055.5911%20130.621%2052.8671%20130.621%2052.8671L128.61%2045.613C128.61%2045.613%20123.424%2047.8192%20117.762%2047.8192C111.893%2047.8192%20109.368%2046.3232%20108.721%2040.6824H131.48V34.8628C131.48%2022.9485%20124.763%2018.4602%20115.37%2018.4602L115.37%2018.4604ZM115.643%2025.7243C119.567%2025.7243%20122.11%2028.1305%20121.97%2033.7109H108.741C108.97%2027.8376%20111.712%2025.7243%20115.643%2025.7243ZM192.902%2018.4115C181.261%2018.4115%20175.133%2024.9717%20175.133%2036.7279C175.133%2052.8579%20185.697%2055.4544%20192.922%2055.4544C203.499%2055.4544%20210.535%2049.7601%20210.535%2036.8743C210.535%2023.4625%20202.623%2018.4115%20192.902%2018.4115ZM192.756%2026.8667C197.875%2026.8667%20199.903%2030.6977%20199.903%2035.0585V38.8077C199.903%2044.0904%20197.065%2047.1459%20192.737%2047.1459C188.688%2047.1459%20185.843%2044.2877%20185.843%2038.8077V35.0585C185.843%2029.214%20189.229%2026.8667%20192.756%2026.8667ZM231.947%2018.4115C220.306%2018.4115%20214.177%2024.9717%20214.177%2036.7279C214.177%2052.8579%20224.742%2055.4544%20231.967%2055.4544C242.543%2055.4544%20249.58%2049.7601%20249.58%2036.8743C249.58%2023.4625%20241.668%2018.4115%20231.947%2018.4115ZM231.801%2026.8667C236.919%2026.8667%20238.947%2030.6977%20238.947%2035.0585V38.8077C238.947%2044.0904%20236.109%2047.1459%20231.781%2047.1459C227.733%2047.1459%20224.888%2044.2877%20224.888%2038.8077V35.0585C224.888%2029.214%20228.273%2026.8667%20231.801%2026.8667ZM253.642%2054.7378V1.31148L264.421%200.374399V36.1841L275.115%2019.1206H286.498L275.342%2036.7934L286.928%2054.7378H275.512L264.421%2037.3137V54.7378H253.642Z'%20fill='%23606060'/%3e%3c/svg%3e"
+                alt="Facebook"
+                class="h-4 sm:h-5"
+              />
+            </li>
+            <li>
+              <img
+                src="data:image/svg+xml,%3csvg%20width='287'%20height='95'%20viewBox='0%200%20287%2095'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M122.59%2050.3829C122.59%2063.9299%20111.992%2073.9124%2098.9865%2073.9124C85.9806%2073.9124%2075.3828%2063.9299%2075.3828%2050.3829C75.3828%2036.7405%2085.9806%2026.8535%2098.9865%2026.8535C111.992%2026.8535%20122.59%2036.7405%20122.59%2050.3829ZM112.258%2050.3829C112.258%2041.9174%20106.115%2036.1253%2098.9865%2036.1253C91.8577%2036.1253%2085.7154%2041.9174%2085.7154%2050.3829C85.7154%2058.7636%2091.8577%2064.6406%2098.9865%2064.6406C106.115%2064.6406%20112.258%2058.753%20112.258%2050.3829Z'%20fill='%23606060'/%3e%3cpath%20d='M173.504%2050.3829C173.504%2063.9299%20162.906%2073.9124%20149.901%2073.9124C136.895%2073.9124%20126.297%2063.9299%20126.297%2050.3829C126.297%2036.7512%20136.895%2026.8535%20149.901%2026.8535C162.906%2026.8535%20173.504%2036.7405%20173.504%2050.3829ZM163.172%2050.3829C163.172%2041.9174%20157.029%2036.1253%20149.901%2036.1253C142.772%2036.1253%20136.629%2041.9174%20136.629%2050.3829C136.629%2058.7636%20142.772%2064.6406%20149.901%2064.6406C157.029%2064.6406%20163.172%2058.753%20163.172%2050.3829Z'%20fill='%23606060'/%3e%3cpath%20d='M222.302%2028.275V70.5177C222.302%2087.8943%20212.055%2094.9913%20199.94%2094.9913C188.536%2094.9913%20181.672%2087.3638%20179.084%2081.1261L188.08%2077.3813C189.681%2081.211%20193.607%2085.7301%20199.929%2085.7301C207.684%2085.7301%20212.489%2080.9458%20212.489%2071.9392V68.5551H212.129C209.816%2071.4088%20205.361%2073.9018%20199.738%2073.9018C187.973%2073.9018%20177.195%2063.6541%20177.195%2050.4678C177.195%2037.1861%20187.973%2026.8535%20199.738%2026.8535C205.35%2026.8535%20209.806%2029.3465%20212.129%2032.1153H212.489V28.2856H222.302V28.275ZM213.221%2050.4678C213.221%2042.1827%20207.694%2036.1253%20200.661%2036.1253C193.532%2036.1253%20187.56%2042.1827%20187.56%2050.4678C187.56%2058.6681%20193.532%2064.6406%20200.661%2064.6406C207.694%2064.6406%20213.221%2058.6681%20213.221%2050.4678Z'%20fill='%23606060'/%3e%3cpath%20d='M238.484%203.51367V72.4683H228.406V3.51367H238.484Z'%20fill='%23606060'/%3e%3cpath%20d='M277.754%2058.124L285.774%2063.4707C283.185%2067.3003%20276.948%2073.8987%20266.169%2073.8987C252.803%2073.8987%20242.82%2063.5661%20242.82%2050.3693C242.82%2036.3768%20252.888%2026.8398%20265.013%2026.8398C277.223%2026.8398%20283.196%2036.5571%20285.148%2041.8083L286.219%2044.4816L254.765%2057.5087C257.173%2062.2295%20260.918%2064.6376%20266.169%2064.6376C271.431%2064.6376%20275.08%2062.0491%20277.754%2058.124ZM253.068%2049.6585L274.094%2040.9278C272.938%2037.9893%20269.458%2035.9419%20265.363%2035.9419C260.112%2035.9419%20252.803%2040.5777%20253.068%2049.6585Z'%20fill='%23606060'/%3e%3cpath%20d='M37.2309%2044.2589V34.2764H70.8702C71.199%2036.0162%2071.3688%2038.0742%2071.3688%2040.302C71.3688%2047.7915%2069.3213%2057.0527%2062.7229%2063.6511C56.3048%2070.3344%2048.1045%2073.8988%2037.2415%2073.8988C17.1068%2073.8988%200.175781%2057.4982%200.175781%2037.3635C0.175781%2017.2287%2017.1068%200.828125%2037.2415%200.828125C48.3804%200.828125%2056.3154%205.19879%2062.2774%2010.8955L55.2334%2017.9395C50.9582%2013.9295%2045.166%2010.8106%2037.2309%2010.8106C22.5277%2010.8106%2011.0282%2022.6602%2011.0282%2037.3635C11.0282%2052.0667%2022.5277%2063.9163%2037.2309%2063.9163C46.7679%2063.9163%2052.1994%2060.0867%2055.6789%2056.6071C58.5008%2053.7853%2060.3572%2049.7541%2061.0892%2044.2483L37.2309%2044.2589Z'%20fill='%23606060'/%3e%3c/svg%3e"
+                alt="Google"
+                class="h-6 sm:h-8"
+              />
+            </li>
+            <li>
+              <img
+                src="data:image/svg+xml,%3csvg%20width='287'%20height='78'%20viewBox='0%200%20287%2078'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M39.8008%2072.5802C35.4978%2073.3359%2031.1191%2073.5624%2026.5896%2074.1658L12.774%2033.7016V75.9025C8.47102%2076.3553%204.54545%2076.9592%200.46875%2077.5631V0.257812H11.9441L27.6464%2044.1202V0.257812H39.8008V72.5802ZM63.5813%2028.5679C68.2622%2028.5679%2075.434%2028.3413%2079.737%2028.3413V40.42C74.3767%2040.42%2068.1111%2040.42%2063.5813%2040.6466V58.6143C70.678%2058.1615%2077.7744%2057.557%2084.9459%2057.3305V68.9558L51.5021%2071.5986V0.257812H84.9459V12.3368H63.5813V28.5679ZM129.864%2012.3371H117.333V67.9002C113.256%2067.9002%20109.179%2067.9002%20105.254%2068.0507V12.3371H92.7224V0.257812H129.865L129.864%2012.3371ZM149.493%2027.7377H166.026V39.8164H149.493V67.2208H137.639V0.257812H171.386V12.3368H149.493V27.7377ZM191.014%2056.6514C197.884%2056.802%20204.829%2057.3313%20211.548%2057.7081V69.6363C200.753%2068.9564%20189.957%2068.2778%20178.935%2068.0507V0.257812H191.014V56.6514ZM221.74%2070.4668C225.59%2070.6936%20229.667%2070.9201%20233.592%2071.3724V0.257812H221.74V70.4668ZM286.514%200.257812L271.188%2037.0232L286.514%2077.5631C281.984%2076.9592%20277.454%2076.1287%20272.924%2075.3737L264.243%2053.0281L255.411%2073.5624C251.032%2072.8068%20246.804%2072.5802%20242.426%2071.9763L257.978%2036.5699L243.935%200.257812H256.92L264.847%2020.5656L273.302%200.257812H286.514Z'%20fill='%23606060'/%3e%3c/svg%3e"
+                alt="Netflix"
+                class="h-6 sm:h-8"
+              />
+            </li>
+            <li>
+              <img
+                src="/agency-landing/assets/spotify-BaJPPcwM.svg"
+                alt="Spotify"
+                class="h-6 sm:h-8"
+              />
+            </li>
+            <li>
+              <img
+                src="data:image/svg+xml,%3csvg%20width='287'%20height='74'%20viewBox='0%200%20287%2074'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M63.9984%2067.5146L60.6269%2058.3501C60.6269%2058.3501%2055.1483%2064.4603%2046.9326%2064.4603C39.6629%2064.4603%2034.5015%2058.1394%2034.5015%2048.0261C34.5015%2035.0687%2041.0322%2030.4335%2047.4593%2030.4335C56.7291%2030.4335%2059.6785%2036.438%2062.2073%2044.1287L65.5789%2054.6634C68.9492%2064.8812%2075.2701%2073.0982%2093.4946%2073.0982C106.559%2073.0982%20115.407%2069.0954%20115.407%2058.5612C115.407%2050.0282%20110.56%2045.6034%20101.5%2043.4963L94.7586%2042.0216C90.1239%2040.9682%2088.7545%2039.0718%2088.7545%2035.9113C88.7545%2032.3296%2091.5982%2030.2225%2096.2341%2030.2225C101.291%2030.2225%20104.029%2032.1189%20104.451%2036.6487L114.985%2035.3843C114.143%2025.9033%20107.611%2022.0055%2096.8661%2022.0055C87.3856%2022.0055%2078.1149%2025.5873%2078.1149%2037.07C78.1149%2044.2336%2081.5914%2048.7638%2090.3342%2050.8705L97.4985%2052.5555C102.871%2053.8199%20104.661%2056.0319%20104.661%2059.0874C104.661%2062.9844%20100.869%2064.5648%2093.7057%2064.5648C83.0657%2064.5648%2078.642%2058.9817%2076.1132%2051.291L72.6367%2040.7571C68.213%2027.062%2061.154%2022.0055%2047.1428%2022.0055C31.6574%2022.0055%2023.4401%2031.8025%2023.4401%2048.447C23.4401%2064.4599%2031.6574%2073.0978%2046.4063%2073.0978C58.3087%2073.0978%2063.9984%2067.5146%2063.9984%2067.5146ZM18.9164%2062.5631C17.863%2062.8795%2016.8092%2063.0901%2015.4399%2063.0901C12.9115%2063.0901%2011.1204%2061.9319%2011.1204%2058.8759V1.46H0.0585938V61.5097C0.0585938%2069.4106%205.53721%2072.6776%2011.963%2072.6776C14.0701%2072.6776%2016.0719%2072.3608%2018.6003%2071.7296L18.9164%2062.5631ZM152.173%2060.8777C149.434%2062.7749%20147.116%2063.7234%20143.956%2063.7234C139.952%2063.7234%20137.74%2061.6163%20137.74%2056.4541V31.8009H152.279V23.163H137.845V11.468L126.679%2012.8378V23.1626H119.62V31.8005H126.679V58.7702C126.679%2068.4642%20132.262%2073.0974%20141.322%2073.0974C146.274%2073.0974%20150.698%2072.1506%20154.175%2070.1492L152.173%2060.8777ZM161.781%2064.6698C161.781%2068.9901%20165.153%2072.4662%20169.472%2072.4662C174.002%2072.4662%20177.373%2068.9901%20177.373%2064.6698C177.373%2060.2453%20174.002%2056.8754%20169.472%2056.8754C165.153%2056.8754%20161.781%2060.2453%20161.781%2064.6698ZM188.825%2031.8009V71.8341H199.886V31.8009H212.318V23.163H199.886V18.7377C199.886%2012.1012%20202.731%209.99414%20207.366%209.99414C210.632%209.99414%20212.845%2010.7307%20215.373%2012.1012L217.164%202.82935C214.214%201.46%20210.738%200.722656%20206.524%200.722656C197.252%200.722656%20188.825%205.14712%20188.825%2018.316V23.163H181.766V31.8009H188.825ZM256.395%2032.7501C255.131%2024.8488%20249.969%2022.0031%20243.226%2022.0031C236.484%2022.0031%20230.69%2025.0586%20228.161%2032.5382L226.792%2023.163H217.837V71.8341H228.899V44.3385C228.899%2034.9613%20233.745%2031.3795%20238.907%2031.3795C244.28%2031.3795%20246.492%2034.9613%20246.492%2040.7555V71.8337H257.448V44.2328C257.448%2034.9609%20262.4%2031.3791%20267.563%2031.3791C272.83%2031.3791%20275.042%2034.9609%20275.042%2040.7551V71.8333H286.104V36.859C286.104%2026.4292%20279.993%2022.0031%20271.881%2022.0031C265.035%2022.0031%20258.924%2025.0586%20256.395%2032.7501Z'%20fill='%23606060'/%3e%3c/svg%3e"
+                alt="Last.fm"
+                class="h-6 sm:h-8"
+              />
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <section class="max-w-container mx-auto grid md:grid-cols-2 mb-28 md:mb-52">
+      <!-- Left side: image -->
+      <div class="h-full w-full hidden md:block">
+        <img
+          src="/agency-landing/assets/email-marketing-DjkMWoKd.png"
+          alt="Man working on email marketing"
+          class="w-full h-full object-cover"
+        />
+      </div>
+
+      <!-- Right side: content -->
+      <div
+        class="bg-neutralGreen text-white flex flex-col justify-center items-center m-0 py-12 md:py-28"
+      >
+        <div
+          class="flex flex-col h-full justify-between max-w-content-container-half mx-auto px-4"
+        >
+          <div >
+            <span
+              class="flex bg-white text-green-600 text-xs font-semibold px-3 py-1 rounded-full w-max mb-6 md:mb-8"
+            >
+              CRM sales marketing
+            </span>
+            <h2 class="text-3xl md:text-4xl font-bold mb-12 md:mb-6">
+              Increase your sales via email<br class="hidden sm:block" />
+              marketing
+            </h2>
+          </div>
+
+          <!-- Stats -->
+          <div class="flex flex-col sm:flex-row gap-12 md:gap-20">
+            <div>
+              <p class="text-5xl md:text-6xl font-semi-bold mb-4">34%</p>
+              <p class="text-base text-white/80 w-64">
+                Engage your audience on a whole new level with personalized
+                emails tailored to their interests and behaviors.
+              </p>
+            </div>
+            <div>
+              <p class="text-5xl md:text-6xl font-semi-bold mb-4">50K</p>
+              <p class="text-base text-white/80 w-64">
+                platform is designed to empower you with the tools and features
+                you need to succeed.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="bg-[#0C0C0C] text-white py-12 md:py-28">
+      <div class="max-w-container mx-auto px-4 text-center">
+        <h2 class="text-white text-3xl md:text-4xl font-bold mb-6">
+          Lots of extra features,<br />included with all services
+        </h2>
+        <p class="text-gray-400 max-w-2xl mx-auto mb-16 md:mb-32">
+          With our automated email solutions, you can say goodbye to tedious
+          manual tasks and hello to efficiency and productivity. Our platform
+          empowers you to automate every aspect of your email workflow.
+        </p>
+
+        <!-- Features -->
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8 text-left">
+          <!-- Card 1 -->
+          <div
+            class="bg-[#1a1a1a] rounded-xl px-5 md:px-10 py-8 md:py-16 text-center hover:shadow-2xl transition-all duration-300"
+          >
+            <h3 class="text-lightGreen text-xl md:text-2xl font-semibold mb-3">
+              Advanced Automation
+            </h3>
+            <p class="text-gray-300 mb-12 md:mb-24">
+              Say goodbye to manual tasks and hello to efficiency! Our robust
+              automation features allow you to automate every aspect of your
+              email.
+            </p>
+            <img
+              src="/agency-landing/assets/automation-CjPhkZcz.png"
+              alt="Automation"
+              class="mx-auto h-24 md:h-48"
+            />
+          </div>
+
+          <!-- Card 2 -->
+          <div
+            class="bg-[#1a1a1a] rounded-xl px-5 md:px-10 py-8 md:py-16 text-center hover:shadow-2xl transition-all duration-300"
+          >
+            <h3 class="text-lightGreen text-xl md:text-2xl font-semibold mb-3">
+              Dynamic Personalization
+            </h3>
+            <p class="text-gray-300 mb-12 md:mb-24">
+              Engage your audience like never before with personalized emails
+              tailored to their interests, behaviors, and preferences.
+            </p>
+            <img
+              src="/agency-landing/assets/personalization-ChIvYwIv.png"
+              alt="Personalization"
+              class="mx-auto h-24 md:h-48"
+            />
+          </div>
+
+          <!-- Card 3 -->
+          <div
+            class="bg-[#1a1a1a] rounded-xl px-5 md:px-10 py-8 md:py-16 text-center hover:shadow-2xl transition-all duration-300"
+          >
+            <h3 class="text-lightGreen text-xl md:text-2xl font-semibold mb-3">
+              Powerful Analytics
+            </h3>
+            <p class="text-gray-300 mb-12 md:mb-24">
+              Knowledge is power! Gain valuable insights into the performance of
+              your email campaigns with our powerful analytics tools.
+            </p>
+            <img
+              src="/agency-landing/assets/analytics-CG3v4NYR.png"
+              alt="Analytics"
+              class="mx-auto h-24 md:h-48"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="bg-white mx-auto px-4 text-[#0C0C0C] py-28 md:py-56">
+      <div class="max-w-content-container mx-auto">
+        <div class="flex flex-col lg:flex-row items-center gap-20 md:gap-36 mb-28 md:mb-56">
+          <div class="flex-1 max-w-lg">
+            <span
+              class="inline-block text-primaryGreen text-xs font-semibold px-3 rounded-full mb-4"
+            >
+              CRM sales marketing
+            </span>
+            <h2 class="text-3xl md:text-4xl font-semibold mb-14">
+              Increase your sales via email marketing
+            </h2>
+            <ul class="flex flex-col gap-8">
+              <li class="flex items-start gap-8">
+                <span class="w-8 md:w-12 h-8 md:h-12 flex-shrink-0">
+                  <svg class="w-full h-full" viewBox="0 0 131 131" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="65.832" cy="65.8496" r="64.875" fill="#008EFF"/>
+                    <path d="M52.857 47.1076V38.4576C52.857 36.8651 54.1479 35.5742 55.7403 35.5742H90.3403C91.9328 35.5742 93.2236 36.8651 93.2236 38.4576V78.8242C93.2236 80.4167 91.9328 81.7075 90.3403 81.7075H81.6903V90.3549C81.6903 91.9489 80.3931 93.2409 78.7874 93.2409H44.2268C42.6234 93.2409 41.3242 91.9589 41.3242 90.3549L41.3317 49.9934C41.332 48.3996 42.6293 47.1076 44.2347 47.1076H52.857ZM47.0979 52.8742L47.0914 87.4742H75.9236V52.8742H47.0979ZM58.6236 47.1076H81.6903V75.9409H87.457V41.3409H58.6236V47.1076ZM52.8576 61.5242H70.1575V67.2909H52.8576V61.5242ZM52.8576 73.0575H70.1575V78.8242H52.8576V73.0575Z" fill="white"/>
+                    </svg>                    
+                </span>
+                <div>
+                  <h4 class="font-semibold text-xl mb-2">Simply Copy & Paste</h4>
+                  <p class="text-gray-600 md:text-lg">
+                    Use limited-time offers or exclusive deals to prompt immediate action.
+                  </p>
+                </div>
+              </li>
+              <li class="flex items-start gap-8">
+                <span class="w-8 md:w-12 h-8 md:h-12 flex-shrink-0">
+                  <svg class="w-full h-full" viewBox="0 0 131 131" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="65.832" cy="65.4316" r="64.875" fill="#FABB18"/>
+                    <g clip-path="url(#clip0_201_1456)">
+                    <path d="M52.8721 38.0401H84.5888C86.1813 38.0401 87.4721 39.331 87.4721 40.9234V92.8234C87.4721 94.4159 86.1813 95.7068 84.5888 95.7068H49.9888C48.3964 95.7068 47.1055 94.4159 47.1055 92.8234V32.2734H52.8721V38.0401ZM52.8721 43.8068V58.2234H81.7055V43.8068H52.8721Z" fill="white"/>
+                    </g>
+                    <defs>
+                    <clipPath id="clip0_201_1456">
+                    <rect width="69.2" height="69.2" fill="white" transform="translate(32.6797 32.2734)"/>
+                    </clipPath>
+                    </defs>
+                    </svg>                    
+                </span>
+                <div>
+                  <h4 class="font-semibold text-xl">Optimize for Mobile</h4>
+                  <p class="text-gray-600 md:text-lg">
+                    Ensure emails are mobile-friendly to reach customers on-the-go.
+                  </p>
+                </div>
+              </li>
+              <li class="flex items-start gap-8">
+                <span class="w-8 md:w-12 h-8 md:h-12 flex-shrink-0">
+                  <svg class="w-full h-full" viewBox="0 0 131 130" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="65.832" cy="65.0137" r="64.875" fill="#2F872D"/>
+                    <path d="M93.2242 52.0383V89.502C93.2242 91.1077 91.9417 92.4049 90.3599 92.4049H44.1885C42.6072 92.4049 41.3242 91.1247 41.3242 89.5452V37.598C41.3242 36.0511 42.618 34.7383 44.2139 34.7383H75.915L93.2242 52.0383ZM87.4576 54.9216H73.0409V40.5049H47.0909V86.6383H87.4576V54.9216ZM55.7409 49.1549H64.3909V54.9216H55.7409V49.1549ZM55.7409 60.6883H78.8075V66.4549H55.7409V60.6883ZM55.7409 72.2216H78.8075V77.9883H55.7409V72.2216Z" fill="white"/>
+                  </svg>                    
+                </span>
+                <div>
+                  <h4 class="font-semibold text-xl">Test and Iterate</h4>
+                  <p class="text-gray-600 md:text-lg">
+                    Continuously test different strategies and analyze results to refine your approach.
+                  </p>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div class="flex-1">
+            <img
+              src="/agency-landing/assets/email-analytics-1-C8kDTUNx.png"
+              alt="Email Analytics"
+              class="rounded-xl w-full max-w-xl mx-auto"
+            />
+          </div>
+        </div>
+        <div class="flex flex-col lg:flex-row gap-20 md:gap-36">
+          <div class="max-w-content-container-half order-2 lg:order-1">
+            <img
+              src="/agency-landing/assets/email-analytics-2-CzHaN1vV.png"
+              alt="Analytics Dark"
+              class="rounded-xl w-full max-w-xl"
+            />
+          </div>
+
+          <!-- Text block -->
+          <div class="flex-1 order-1 lg:order-2 max-w-lg">
+            <span
+              class="inline-block text-primaryGreen text-xs font-semibold px-3 py-1 rounded-full mb-4"
+            >
+              Local benchmark
+            </span>
+            <h2 class="text-3xl md:text-4xl font-semibold mb-14">
+              Compare against the market
+            </h2>
+            <ul class="space-y-7 text-sm text-gray-600">
+              <li class="flex items-start gap-3">
+                <span class="w-6 h-6 flex-shrink-0">
+                  <svg
+                    viewBox="0 0 71 70"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="w-full h-full"
+                  >
+                    <path
+                      d="M35.4544 63.944C19.5302 63.944 6.62109 51.0347 6.62109 35.1107C6.62109 19.1865 19.5302 6.27734 35.4544 6.27734C51.3785 6.27734 64.2878 19.1865 64.2878 35.1107C64.2878 51.0347 51.3785 63.944 35.4544 63.944ZM32.5786 46.644L52.9669 26.2558L48.8893 22.1781L32.5786 38.4888L24.4234 30.3333L20.3457 34.4112L32.5786 46.644Z"
+                      fill="#2F872D"
+                    />
+                  </svg>
+                </span>
+                <span class="text-gray-600 text-lg">Analyse benefits package based on market data</span>
+              </li>
+              <li class="flex items-start gap-2 md:gap-3">
+                <span class="w-6 h-6 flex-shrink-0">
+                  <svg
+                    viewBox="0 0 71 70"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="w-full h-full"
+                  >
+                    <path
+                      d="M35.4544 63.944C19.5302 63.944 6.62109 51.0347 6.62109 35.1107C6.62109 19.1865 19.5302 6.27734 35.4544 6.27734C51.3785 6.27734 64.2878 19.1865 64.2878 35.1107C64.2878 51.0347 51.3785 63.944 35.4544 63.944ZM32.5786 46.644L52.9669 26.2558L48.8893 22.1781L32.5786 38.4888L24.4234 30.3333L20.3457 34.4112L32.5786 46.644Z"
+                      fill="#2F872D"
+                    />
+                  </svg>
+                </span>
+                <span class="text-gray-600 text-lg">Compare your benefits directly against the market</span>
+              </li>
+              <li class="flex items-start gap-3">
+                <span class="w-6 h-6 flex-shrink-0">
+                  <svg
+                    viewBox="0 0 71 70"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="w-full h-full"
+                  >
+                    <path
+                      d="M35.4544 63.944C19.5302 63.944 6.62109 51.0347 6.62109 35.1107C6.62109 19.1865 19.5302 6.27734 35.4544 6.27734C51.3785 6.27734 64.2878 19.1865 64.2878 35.1107C64.2878 51.0347 51.3785 63.944 35.4544 63.944ZM32.5786 46.644L52.9669 26.2558L48.8893 22.1781L32.5786 38.4888L24.4234 30.3333L20.3457 34.4112L32.5786 46.644Z"
+                      fill="#2F872D"
+                    />
+                  </svg>
+                </span>
+                <span class="text-gray-600 text-lg">Design a package that meets employee expectations</span>
+              </li>
+              <li class="flex items-start gap-3">
+                <span class="w-6 h-6 flex-shrink-0">
+                  <svg
+                    viewBox="0 0 71 70"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="w-full h-full"
+                  >
+                    <path
+                      d="M35.4544 63.944C19.5302 63.944 6.62109 51.0347 6.62109 35.1107C6.62109 19.1865 19.5302 6.27734 35.4544 6.27734C51.3785 6.27734 64.2878 19.1865 64.2878 35.1107C64.2878 51.0347 51.3785 63.944 35.4544 63.944ZM32.5786 46.644L52.9669 26.2558L48.8893 22.1781L32.5786 38.4888L24.4234 30.3333L20.3457 34.4112L32.5786 46.644Z"
+                      fill="#2F872D"
+                    />
+                  </svg>
+                </span>
+                <span class="text-gray-600 text-lg">Design a package that meets employee expectations</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="bg-black text-white py-12 md:py-24 px-4 ">
+      <div class="max-w-content-container mx-auto text-center">
+        <h2 class="text-3xl md:text-4xl font-semibold mb-2 md:leading-normal">
+          Discover Flexible Pricing Options<br />
+          for Our Exceptional Services
+        </h2>
+        <p class="text-white max-w-xl mx-auto mb-12 md:mb-28 md:text-xl">
+          we believe in providing top-notch services to cater to your unique requirements. That's why we offer a range of carefully crafted pricing plans designed to suit businesses of all sizes.
+        </p>
+    
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+          <div class="border border-primaryGreen rounded-2xl p-6 md:p-12 flex flex-col">
+            <h3 class="text-left font-semibold mb-4">Personal</h3>
+            <p class="text-5xl font-semibold mb-1 text-left">$5 <span class="text-lg font-normal">p/month</span></p>
+            <ul class="text-sm space-y-6 md:space-y-8 mt-8 md:mt-12 mb-16 md:mb-24 text-left">
+              <li class="flex items-center gap-5"><span class="w-6 h-6 flex-shrink-0">
+                <svg
+                    viewBox="0 0 71 70"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="w-full h-full"
+                  >
+                    <path
+                      d="M35.4544 63.944C19.5302 63.944 6.62109 51.0347 6.62109 35.1107C6.62109 19.1865 19.5302 6.27734 35.4544 6.27734C51.3785 6.27734 64.2878 19.1865 64.2878 35.1107C64.2878 51.0347 51.3785 63.944 35.4544 63.944ZM32.5786 46.644L52.9669 26.2558L48.8893 22.1781L32.5786 38.4888L24.4234 30.3333L20.3457 34.4112L32.5786 46.644Z"
+                      fill="#2F872D"
+                    />
+                  </svg>
+              </span> 1 integration</li>
+              <li class="flex items-center gap-5"><span class="w-6 h-6 flex-shrink-0"><svg
+                viewBox="0 0 71 70"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+                class="w-full h-full"
+              >
+                <path
+                  d="M35.4544 63.944C19.5302 63.944 6.62109 51.0347 6.62109 35.1107C6.62109 19.1865 19.5302 6.27734 35.4544 6.27734C51.3785 6.27734 64.2878 19.1865 64.2878 35.1107C64.2878 51.0347 51.3785 63.944 35.4544 63.944ZM32.5786 46.644L52.9669 26.2558L48.8893 22.1781L32.5786 38.4888L24.4234 30.3333L20.3457 34.4112L32.5786 46.644Z"
+                  fill="#2F872D"
+                />
+              </svg></span> Analytics</li>
+              <li class="flex items-center gap-5"><span class="w-6 h-6 flex-shrink-0"><svg
+                viewBox="0 0 71 70"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+                class="w-full h-full"
+              >
+                <path
+                  d="M35.4544 63.944C19.5302 63.944 6.62109 51.0347 6.62109 35.1107C6.62109 19.1865 19.5302 6.27734 35.4544 6.27734C51.3785 6.27734 64.2878 19.1865 64.2878 35.1107C64.2878 51.0347 51.3785 63.944 35.4544 63.944ZM32.5786 46.644L52.9669 26.2558L48.8893 22.1781L32.5786 38.4888L24.4234 30.3333L20.3457 34.4112L32.5786 46.644Z"
+                  fill="#2F872D"
+                />
+              </svg></span> Insight</li>
+              <li class="flex items-center gap-5 text-gray-500"><span class="w-6 h-6 flex-shrink-0">
+                <svg viewBox="0 0 70 70" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M35.345 63.4674C19.4208 63.4674 6.51172 50.5582 6.51172 34.6341C6.51172 18.7099 19.4208 5.80078 35.345 5.80078C51.2691 5.80078 64.1784 18.7099 64.1784 34.6341C64.1784 50.5582 51.2691 63.4674 35.345 63.4674ZM32.4692 46.1674L52.8575 25.7792L48.7799 21.7016L32.4692 38.0122L24.314 29.8567L20.2364 33.9346L32.4692 46.1674Z" fill="#3A3A3A"/>
+                </svg>
+              </span> Shared features</li>
+              <li class="flex items-center gap-5 text-gray-500"><span class="w-6 h-6 flex-shrink-0"><svg viewBox="0 0 70 70" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M35.345 63.4674C19.4208 63.4674 6.51172 50.5582 6.51172 34.6341C6.51172 18.7099 19.4208 5.80078 35.345 5.80078C51.2691 5.80078 64.1784 18.7099 64.1784 34.6341C64.1784 50.5582 51.2691 63.4674 35.345 63.4674ZM32.4692 46.1674L52.8575 25.7792L48.7799 21.7016L32.4692 38.0122L24.314 29.8567L20.2364 33.9346L32.4692 46.1674Z" fill="#3A3A3A"/>
+                </svg></span> No custom setting</li>
+            </ul>
+            <a href="#" class="mt-auto bg-transparent border border-white text-xl text-white px-6 py-2 rounded-full hover:bg-white hover:text-black transition">Get Started</a>
+          </div>
+          <div class="border border-primaryGreen rounded-xl p-6 md:p-12 flex flex-col">
+            <h3 class="text-left font-semibold mb-4">Professional</h3>
+            <p class="text-5xl text-left font-semibold mb-1">$10 <span class="text-lg font-normal">p/month</span></p>
+            <ul class="text-sm space-y-6 md:space-y-8 mt-8 md:mt-12 mb-16 md:mb-24 text-left">
+              <li class="flex items-center gap-5"><span class="w-6 h-6 flex-shrink-0"><svg
+                viewBox="0 0 71 70"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+                class="w-full h-full"
+              >
+                <path
+                  d="M35.4544 63.944C19.5302 63.944 6.62109 51.0347 6.62109 35.1107C6.62109 19.1865 19.5302 6.27734 35.4544 6.27734C51.3785 6.27734 64.2878 19.1865 64.2878 35.1107C64.2878 51.0347 51.3785 63.944 35.4544 63.944ZM32.5786 46.644L52.9669 26.2558L48.8893 22.1781L32.5786 38.4888L24.4234 30.3333L20.3457 34.4112L32.5786 46.644Z"
+                  fill="#2F872D"
+                />
+              </svg></span> 1 integration</li>
+              <li class="flex items-center gap-5"><span class="w-6 h-6 flex-shrink-0"><svg
+                viewBox="0 0 71 70"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+                class="w-full h-full"
+              >
+                <path
+                  d="M35.4544 63.944C19.5302 63.944 6.62109 51.0347 6.62109 35.1107C6.62109 19.1865 19.5302 6.27734 35.4544 6.27734C51.3785 6.27734 64.2878 19.1865 64.2878 35.1107C64.2878 51.0347 51.3785 63.944 35.4544 63.944ZM32.5786 46.644L52.9669 26.2558L48.8893 22.1781L32.5786 38.4888L24.4234 30.3333L20.3457 34.4112L32.5786 46.644Z"
+                  fill="#2F872D"
+                />
+              </svg></span> Analytics</li>
+              <li class="flex items-center gap-5"><span class="w-6 h-6 flex-shrink-0"><svg
+                viewBox="0 0 71 70"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+                class="w-full h-full"
+              >
+                <path
+                  d="M35.4544 63.944C19.5302 63.944 6.62109 51.0347 6.62109 35.1107C6.62109 19.1865 19.5302 6.27734 35.4544 6.27734C51.3785 6.27734 64.2878 19.1865 64.2878 35.1107C64.2878 51.0347 51.3785 63.944 35.4544 63.944ZM32.5786 46.644L52.9669 26.2558L48.8893 22.1781L32.5786 38.4888L24.4234 30.3333L20.3457 34.4112L32.5786 46.644Z"
+                  fill="#2F872D"
+                />
+              </svg></span> Insight</li>
+              <li class="flex items-center gap-5"><span class="w-6 h-6 flex-shrink-0"><svg
+                viewBox="0 0 71 70"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+                class="w-full h-full"
+              >
+                <path
+                  d="M35.4544 63.944C19.5302 63.944 6.62109 51.0347 6.62109 35.1107C6.62109 19.1865 19.5302 6.27734 35.4544 6.27734C51.3785 6.27734 64.2878 19.1865 64.2878 35.1107C64.2878 51.0347 51.3785 63.944 35.4544 63.944ZM32.5786 46.644L52.9669 26.2558L48.8893 22.1781L32.5786 38.4888L24.4234 30.3333L20.3457 34.4112L32.5786 46.644Z"
+                  fill="#2F872D"
+                />
+              </svg></span> Shared features</li>
+              <li class="flex items-center gap-5 text-gray-500"><span class="w-6 h-6 flex-shrink-0">                <svg viewBox="0 0 70 70" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M35.345 63.4674C19.4208 63.4674 6.51172 50.5582 6.51172 34.6341C6.51172 18.7099 19.4208 5.80078 35.345 5.80078C51.2691 5.80078 64.1784 18.7099 64.1784 34.6341C64.1784 50.5582 51.2691 63.4674 35.345 63.4674ZM32.4692 46.1674L52.8575 25.7792L48.7799 21.7016L32.4692 38.0122L24.314 29.8567L20.2364 33.9346L32.4692 46.1674Z" fill="#3A3A3A"/>
+                </svg></span> No custom setting</li>
+            </ul>
+            <a href="#" class="mt-auto bg-primaryGreen text-lg text-white px-6 py-2 rounded-full hover:bg-green-700 transition">Get Started</a>
+          </div>
+    
+          <div class="border border-primaryGreen rounded-xl p-6 md:p-12 flex flex-col">
+            <h3 class="text-left mb-4">Business</h3>
+            <p class="text-5xl text-left font-semibold mb-1">$15 <span class="text-lg font-normal">p/month</span></p>
+            <ul class="text-sm space-y-6 md:space-y-8 mt-8 md:mt-12 mb-16 md:mb-24 text-left">
+              <li class="flex items-center gap-5"><span class="w-6 h-6 flex-shrink-0"><svg
+                viewBox="0 0 71 70"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+                class="w-full h-full"
+              >
+                <path
+                  d="M35.4544 63.944C19.5302 63.944 6.62109 51.0347 6.62109 35.1107C6.62109 19.1865 19.5302 6.27734 35.4544 6.27734C51.3785 6.27734 64.2878 19.1865 64.2878 35.1107C64.2878 51.0347 51.3785 63.944 35.4544 63.944ZM32.5786 46.644L52.9669 26.2558L48.8893 22.1781L32.5786 38.4888L24.4234 30.3333L20.3457 34.4112L32.5786 46.644Z"
+                  fill="#2F872D"
+                />
+              </svg></span> 1 integration</li>
+              <li class="flex items-center gap-2"><span class="w-6 h-6 flex-shrink-0"><svg
+                viewBox="0 0 71 70"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+                class="w-full h-full"
+              >
+                <path
+                  d="M35.4544 63.944C19.5302 63.944 6.62109 51.0347 6.62109 35.1107C6.62109 19.1865 19.5302 6.27734 35.4544 6.27734C51.3785 6.27734 64.2878 19.1865 64.2878 35.1107C64.2878 51.0347 51.3785 63.944 35.4544 63.944ZM32.5786 46.644L52.9669 26.2558L48.8893 22.1781L32.5786 38.4888L24.4234 30.3333L20.3457 34.4112L32.5786 46.644Z"
+                  fill="#2F872D"
+                />
+              </svg></span> Analytics</li>
+              <li class="flex items-center gap-5"><span class="w-6 h-6 flex-shrink-0"><svg
+                viewBox="0 0 71 70"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+                class="w-full h-full"
+              >
+                <path
+                  d="M35.4544 63.944C19.5302 63.944 6.62109 51.0347 6.62109 35.1107C6.62109 19.1865 19.5302 6.27734 35.4544 6.27734C51.3785 6.27734 64.2878 19.1865 64.2878 35.1107C64.2878 51.0347 51.3785 63.944 35.4544 63.944ZM32.5786 46.644L52.9669 26.2558L48.8893 22.1781L32.5786 38.4888L24.4234 30.3333L20.3457 34.4112L32.5786 46.644Z"
+                  fill="#2F872D"
+                />
+              </svg></span> Insight</li>
+              <li class="flex items-center gap-5"><span class="w-6 h-6 flex-shrink-0"><svg
+                viewBox="0 0 71 70"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+                class="w-full h-full"
+              >
+                <path
+                  d="M35.4544 63.944C19.5302 63.944 6.62109 51.0347 6.62109 35.1107C6.62109 19.1865 19.5302 6.27734 35.4544 6.27734C51.3785 6.27734 64.2878 19.1865 64.2878 35.1107C64.2878 51.0347 51.3785 63.944 35.4544 63.944ZM32.5786 46.644L52.9669 26.2558L48.8893 22.1781L32.5786 38.4888L24.4234 30.3333L20.3457 34.4112L32.5786 46.644Z"
+                  fill="#2F872D"
+                />
+              </svg></span> Shared features</li>
+              <li class="flex items-center gap-5"><span class="w-6 h-6 flex-shrink-0"><svg
+                viewBox="0 0 71 70"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+                class="w-full h-full"
+              >
+                <path
+                  d="M35.4544 63.944C19.5302 63.944 6.62109 51.0347 6.62109 35.1107C6.62109 19.1865 19.5302 6.27734 35.4544 6.27734C51.3785 6.27734 64.2878 19.1865 64.2878 35.1107C64.2878 51.0347 51.3785 63.944 35.4544 63.944ZM32.5786 46.644L52.9669 26.2558L48.8893 22.1781L32.5786 38.4888L24.4234 30.3333L20.3457 34.4112L32.5786 46.644Z"
+                  fill="#2F872D"
+                />
+              </svg></span> No custom setting</li>
+            </ul>
+            <a href="#" class="mt-auto bg-transparent border border-white text-lg text-white px-6 py-2 rounded-full hover:bg-white hover:text-black transition">Get Started</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="md:pt-56 md:pb-28 py-16 bg-white text-[#0C0C0C]">
+      <div class="max-w-content-container mx-auto px-4">
+        <!-- Section Header -->
+        <p class="text-primaryGreen text-xs font-semibold uppercase mb-4">Insight & Inspiration</p>
+        <h2 class="text-3xl md:text-4xl font-semibold mb-8 md:mb-14">Our Blog</h2>
+        <p class="text-gray-600 mb-12 max-w-content-container-half">
+          At EmailGigga, we take immense pride in providing a cutting-edge email marketing solution that empowers businesses to achieve unparalleled success. But don’t just take our word for it – listen to what our valued users have to say about their experience with EmailGigga!
+        </p>
+    
+        <!-- Blog Cards -->
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+          <!-- Blog Card 1 -->
+          <article class="bg-white rounded-xl border p-4 shadow-sm hover:shadow-2xl transition-all duration-300">
+            <img src="/agency-landing/assets/article1-C2aJzVGd.png" alt="Subject Lines" class="rounded-lg mb-7" />
+            <div class="flex justify-between text-xs text-gray-600 mb-6">
+              <span class="bg-green-100 text-primaryGreen px-2 py-2 rounded-full text-[11px] font-medium">Marketing</span>
+              <span class="flex items-center">May 19, 2023</span>
+            </div>
+            <h3 class="font-semibold text-lg text-[#0C0C0C]">Crafting Irresistible Subject Lines: The Key to Email Marketing Success</h3>
+          </article>
+    
+          <!-- Blog Card 2 -->
+          <article class="bg-white rounded-xl border p-4 shadow-sm hover:shadow-2xl transition-all duration-300">
+            <img src="/agency-landing/assets/article2-ILOLHFib.png" alt="Personalization" class="rounded-lg mb-7" />
+            <div class="flex justify-between text-xs text-gray-600 mb-6">
+              <span class="bg-yellow-100 text-yellow-800 px-2 py-2 rounded-full text-[11px] font-medium">Sales</span>
+              <span class="flex items-center px-2 py-2 ">May 19, 2023</span>
+            </div>
+            <h3 class="font-semibold text-lg text-[#0C0C0C]">The Power of Personalization: How Tailored Content Drives Email Engagement</h3>
+          </article>
+    
+          <!-- Blog Card 3 -->
+          <article class="bg-white rounded-xl border p-4 shadow-sm hover:shadow-2xl transition-all duration-300">
+            <img src="/agency-landing/assets/article3-Byx4FWtq.png" alt="Automation" class="rounded-lg mb-7" />
+            <div class="flex justify-between text-xs text-gray-600 mb-6">
+              <span class="bg-green-100 text-primaryGreen px-2 py-1 rounded-full text-[11px] font-medium">Marketing</span>
+              <span class="flex items-center">May 19, 2023</span>
+            </div>
+            <h3 class="font-semibold text-lg text-[#0C0C0C]">
+              Automation Unleashed: Streamlining Your Email Marketing with Workflows
+            </h3>
+          </article>
+        </div>
+      </div>
+    </section>  
+    <section class="bg-white text-[#0C0C0C] py-12 md:py-24">
+      <div class="max-w-6xl mx-auto px-4 text-center">
+        <span class="text-primaryGreen text-xs font-semibold uppercase mb-4 inline-block">Testimonial</span>
+        <h2 class="text-3xl md:text-4xl font-semibold mb-4 md:leading-normal">
+          See what people are saying<br />about EmailGigga
+        </h2>
+        <p class="text-gray-600 max-w-2xl mx-auto mb-8 md:mb-16">
+          At EmailGigga, we take immense pride in providing a cutting-edge email marketing solution that empowers businesses to achieve unparalleled success. But don't just take our word for it - listen to what our valued users have to say about their experience with EmailGigga!        </p>
+        <!-- Swiper -->
+        <div class="swiper mySwiper">
+          <div class="swiper-wrapper ">
+            <!-- Slide 1 -->
+            <div class="swiper-slide h-full">
+              <div class="bg-gray-100 p-6 rounded-xl text-left h-full flex flex-col justify-between">
+                <p class="mb-6">I must say it has transformed the way we approach email marketing. The personalization features have allowed us to create tailored campaigns that resonate.</p>
+                <div class="flex items-center gap-3">
+                  <img src="/agency-landing/assets/avatar1-B652xG0c.png" alt="Sarah" class="w-10 h-10 rounded-full" />
+                  <div>
+                    <p class="font-semibold text-sm">Sarah Thompson</p>
+                    <p class="text-xs text-primaryGreen">Marketing Manager</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+    
+            <!-- Slide 2 -->
+            <div class="swiper-slide h-full">
+              <div class="bg-gray-100 p-6 rounded-xl text-left h-full flex flex-col justify-between">
+                <p class="mb-6">We tried various email marketing platforms before coming across [Your Email Marketing Software Name], and none of them could match the level of personalization and ease of use that this software offers.</p>
+                <div class="flex items-center gap-3">
+                  <img src="/agency-landing/assets/avatar2-BXIHU0Rf.png" alt="John" class="w-10 h-10 rounded-full" />
+                  <div>
+                    <p class="font-semibold text-sm">John Roberts</p>
+                    <p class="text-xs text-primaryGreen">E-commerce Owner</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+    
+            <!-- Slide 3 -->
+            <div class="swiper-slide h-full">
+              <div class="bg-gray-100 p-6 rounded-xl text-left h-full flex flex-col justify-between">
+                <p class="mb-6">This platform has truly streamlined our entire email process. From building the campaigns to tracking their performance, everything is intuitive and efficient. It's now a core part of our workflow.</p>
+                <div class="flex items-center gap-3">
+                  <img src="/agency-landing/assets/avatar3-mVMlZWUK.png" alt="Emily" class="w-10 h-10 rounded-full" />
+                  <div>
+                    <p class="font-semibold text-sm">Emily Parker</p>
+                    <p class="text-xs text-green-600">Non-profit Coordinator</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+    
+            <!-- Slide 4 -->
+            <div class="swiper-slide h-full">
+              <div class="bg-gray-100 p-6 rounded-xl text-left flex h-full flex-col justify-between">
+                <p class="mb-6">We've noticed a major improvement in engagement since switching. The segmentation and automation tools give us complete control and make testing easier than ever before. It's been a huge time-saver overall.</p></p>
+                <div class="flex items-center gap-3">
+                  <img src="/agency-landing/assets/avatar2-BXIHU0Rf.png" alt="Liam" class="w-10 h-10 rounded-full" />
+                  <div>
+                    <p class="font-semibold text-sm">Liam Walker</p>
+                    <p class="text-xs text-primaryGreen">Product Manager</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-pagination !relative mt-10"></div>
+        </div>
+      </div>
+    </section>
+    <section class="text-white py-12 md:py-20 px-4 md:mb-28">
+      <div class="max-w-content-container mx-auto">
+        <div
+          class="bg-[#0C120F] bg-[url('./src/assets/bg-lines.svg')] bg-cover bg-center rounded-3xl px-6 py-14 md:px-16 md:py-20 text-center"
+        >
+          <h2 class="text-3xl md:text-4xl font-semibold md:leading-snug mb-8">
+            Unlock the Potential of Your<br />
+            Campaigns with Our Intuitive Software
+          </h2>
+          <p class="mb-14 mx-auto max-w-content-container-half">
+            We invite you to embark on this exciting email marketing journey with us. At emailgigga, we believe in a collaborative approach, where our clients become our partners. Together, we can shape a future where mailing possibilities are limitless.          </p>
+    
+            <div class="flex flex-col sm:flex-row justify-center gap-4">
+              <a
+                href="#"
+                class="bg-primaryGreen text-white px-8 py-3 rounded-full font-medium hover:bg-green-700 transition text-center text-sm md:text-lg"
+                >Get started</a
+              >
+              <a
+                href="#"
+                class="border border-white px-10 py-3 rounded-full flex items-center justify-center gap-2 hover:bg-white hover:text-black transition text-sm md:text-lg"
+              >
+                ▶ Watch Video
+              </a>
+            </div>
+        </div>
+      </div>
+    </section>
+    <footer class="bg-[#0C120F] text-white py-12 md:py-20 px-4">
+      <div class="max-w-content-container mx-auto flex flex-col md:flex-row justify-between items-start md:items-center gap-8 mb-16 md:mb-36">
+        <!-- Logo -->
+        <a href="#" class="flex items-center space-x-2">
+          <img
+            src="/agency-landing/assets/logo-yQgdjv6w.svg"
+            alt="EmailGigga logo"
+            class="h-8 w-auto"
+          />
+        </a>
+    
+        <!-- Navigation -->
+        <nav>
+          <ul class="flex gap-12 md:gap-20 text-lg">
+            <li><a href="#" class="hover:text-lightGreen transition">Home</a></li>
+            <li><a href="#" class="hover:text-lightGreen transition">Pricing</a></li>
+            <li><a href="#" class="hover:text-lightGreen transition">Blog</a></li>
+            <li><a href="#" class="hover:text-lightGreen transition">About us</a></li>
+          </ul>
+        </nav>
+      </div>
+    
+        <!-- Social Icons -->
+        <div class="max-w-content-container mx-auto flex flex-col md:flex-row justify-between items-start md:items-center gap-8">
+          <div></div>
+          <ul class="flex gap-12">
+            <li>
+              <a href="#" aria-label="Twitter" class="text-white hover:text-lightGreen transition">
+                <svg class="w-5 h-5 " viewBox="0 0 70 70" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M64.439 16.9024C62.2379 17.8761 59.9035 18.5156 57.5135 18.7998C60.0316 17.2924 61.9158 14.9211 62.8151 12.1276C60.4491 13.5334 57.8592 14.5228 55.1584 15.0529C52.8786 12.6206 49.6922 11.2423 46.3585 11.2461C39.7003 11.2461 34.3001 16.6445 34.3001 23.3056C34.3001 24.2506 34.4085 25.1671 34.6112 26.0513C24.5855 25.5466 15.7037 20.7487 9.75453 13.4521C8.6834 15.2924 8.12046 17.3843 8.12331 19.5136C8.12331 23.6971 10.2528 27.3896 13.4876 29.5514C11.5727 29.4909 9.70004 28.9737 8.02569 28.0426C8.02384 28.0933 8.02384 28.144 8.02384 28.1919C8.02384 34.0361 12.1806 38.9113 17.6987 40.0182C16.6631 40.2985 15.5948 40.44 14.5219 40.4392C13.7427 40.4392 12.9865 40.3674 12.2515 40.2264C13.787 45.0162 18.2375 48.5033 23.5162 48.599C19.2446 51.9514 13.9697 53.7702 8.53964 53.7625C7.5786 53.7633 6.61836 53.7065 5.66406 53.5929C11.1768 57.1368 17.5936 59.0176 24.1471 59.0107C46.3291 59.0107 58.4575 40.6364 58.4575 24.702C58.4575 24.1806 58.4449 23.6575 58.4218 23.1417C60.7824 21.4361 62.82 19.3233 64.439 16.9024Z" fill="currentColor"/>
+                  </svg>                  
+              </a>
+            </li>
+            <li>
+              <a href="#" aria-label="LinkedIn" class="text-white hover:text-lightGreen transition">
+                <svg class="w-5 h-5" viewBox="0 0 71 70" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M53.7986 53.4775H46.1131V41.4343C46.1131 38.5625 46.0548 34.867 42.1081 34.867C38.1011 34.867 37.489 37.9919 37.489 41.2224V53.4775H29.8035V28.7125H37.1863V32.088H37.2857C38.3174 30.1418 40.8259 28.0875 44.5734 28.0875C52.3607 28.0875 53.8009 33.2128 53.8009 39.884L53.7986 53.4775ZM21.1233 25.3239C18.6494 25.3239 16.6621 23.3214 16.6621 20.8583C16.6621 18.3974 18.6516 16.3971 21.1233 16.3971C23.5885 16.3971 25.5867 18.3974 25.5867 20.8583C25.5867 23.3214 23.5864 25.3239 21.1233 25.3239ZM24.9769 53.4775H17.2697V28.7125H24.9769V53.4775ZM57.6435 9.25H13.4118C11.2947 9.25 9.58203 10.9238 9.58203 12.989V57.4112C9.58203 59.4782 11.2947 61.15 13.4118 61.15H57.6372C59.7521 61.15 61.4821 59.4782 61.4821 57.4112V12.989C61.4821 10.9238 59.7521 9.25 57.6372 9.25H57.6435Z" fill="currentColor"/>
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a href="#" aria-label="Instagram" class="text-white hover:text-lightGreen transition">
+                <svg class="w-5 h-5 " viewBox="0 0 70 70" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M38.0253 6.36719C41.2702 6.37255 42.9146 6.38971 44.3355 6.432L44.8952 6.45031C45.5416 6.47329 46.1794 6.50213 46.9484 6.53817C50.0165 6.67991 52.1096 7.16529 53.9477 7.87892C55.8481 8.61175 57.4532 9.60171 59.0558 11.2044C60.656 12.807 61.6462 14.4169 62.3814 16.3127C63.0925 18.1484 63.578 20.2436 63.7222 23.312C63.7565 24.0808 63.7842 24.7186 63.8069 25.3652L63.8251 25.9248C63.8672 27.3456 63.8865 28.9902 63.8926 32.2351L63.8949 34.3852C63.8952 34.6478 63.8952 34.9189 63.8952 35.1986L63.8949 36.0119L63.8932 38.1621C63.8877 41.407 63.8707 43.0513 63.8283 44.4722L63.8098 45.0319C63.787 45.6783 63.7582 46.3161 63.7222 47.0851C63.5803 50.1533 63.0925 52.2463 62.3814 54.0844C61.6485 55.9848 60.656 57.59 59.0558 59.1925C57.4532 60.7928 55.8409 61.7829 53.9477 62.5181C52.1096 63.2292 50.0165 63.7147 46.9484 63.8589C46.1794 63.8932 45.5416 63.9209 44.8952 63.9437L44.3355 63.9618C42.9146 64.0039 41.2702 64.0232 38.0253 64.0293L35.8752 64.0316C35.6126 64.0319 35.3415 64.0319 35.0618 64.0319L34.2485 64.0316L32.0984 64.0299C28.8534 64.0244 27.2089 64.0074 25.7881 63.965L25.2285 63.9465C24.5819 63.9238 23.9441 63.8949 23.1752 63.8589C20.1069 63.717 18.0165 63.2292 16.176 62.5181C14.2777 61.7852 12.6703 60.7928 11.0676 59.1925C9.46499 57.59 8.47745 55.9776 7.7422 54.0844C7.02858 52.2463 6.54562 50.1533 6.40145 47.0851C6.3672 46.3161 6.33926 45.6783 6.31662 45.0319L6.29849 44.4722C6.2563 43.0513 6.23707 41.407 6.23084 38.1621L6.23047 32.2351C6.23583 28.9902 6.25299 27.3456 6.29529 25.9248L6.3136 25.3652C6.33658 24.7186 6.36541 24.0808 6.40145 23.312C6.5432 20.2412 7.02858 18.1508 7.7422 16.3127C8.47503 14.4145 9.46499 12.807 11.0676 11.2044C12.6703 9.60171 14.2802 8.61417 16.176 7.87892C18.0141 7.16529 20.1045 6.68234 23.1752 6.53817C23.9441 6.50392 24.5819 6.47598 25.2285 6.45334L25.7881 6.43521C27.2089 6.39302 28.8534 6.37379 32.0984 6.36756L38.0253 6.36719ZM35.0618 20.7818C27.0954 20.7818 20.6451 27.2392 20.6451 35.1986C20.6451 43.1649 27.1024 49.6152 35.0618 49.6152C43.0282 49.6152 49.4785 43.1577 49.4785 35.1986C49.4785 27.2321 43.021 20.7818 35.0618 20.7818ZM35.0618 26.5485C39.8392 26.5485 43.7118 30.4197 43.7118 35.1986C43.7118 39.976 39.8404 43.8486 35.0618 43.8486C30.2845 43.8486 26.4118 39.9771 26.4118 35.1986C26.4118 30.4212 30.283 26.5485 35.0618 26.5485ZM50.1993 16.4568C48.2119 16.4568 46.5952 18.0712 46.5952 20.0586C46.5952 22.0459 48.2096 23.6627 50.1993 23.6627C52.1865 23.6627 53.8035 22.0484 53.8035 20.0586C53.8035 18.0712 52.1839 16.4543 50.1993 16.4568Z" fill="currentColor"/>
+                </svg>
+              </a>
+            </li>
+          </ul>
+      </div>    
+      <!-- Divider -->
+      <div class="border-t border-white/10 mt-10 pt-10 text-center text-base text-white/60">
+        EmailGigga © 2025
+      </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  </body>
+</html>
