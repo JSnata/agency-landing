@@ -2,6 +2,10 @@
 
 A responsive and modern landing page built with **HTML**, **Tailwind CSS**, and **Vite**. Designed to showcase the features, testimonials, and pricing of the EmailGigga platform.
 
+
+🔗 Live Demo:
+👉 https://jsnata.github.io/agency-landing/
+
 ## 🔧 Tech Stack
 
 - **HTML5**
